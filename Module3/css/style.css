@@ -1,0 +1,52 @@
+.content-box-md {
+    padding: 100px 0 100px 0;
+}
+
+.content-box-sm {
+    padding: 40px 0 40px 0;
+}
+
+h2 {
+    font-family: 'Raleway', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+}
+
+#menu .menu-items {
+    font-family: 'Gotu';
+    font-style: normal;
+    font-weight: 400;
+    background-color: darkgrey;
+    border: 1px solid darkslategrey;
+    margin-bottom: 20px;
+}
+
+#menu .menu-items .card-body {
+    padding: 20px;
+}
+
+#menu .menu-items .card-head {
+    position: relative;
+    min-height: 30px;
+}
+
+.section-heading {
+    margin: 50px;
+}
+
+.menu-items .head-title {
+    padding: 10px;
+    min-width: 30%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar-nav, .navbar-toggler {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav, .navbar-toggler {
+        visibility: unset;
+    }
+}
